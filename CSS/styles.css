@@ -1,0 +1,89 @@
+body
+{
+	background-image: url(../images/bwcode.jpeg);
+	height: 100%;
+	padding:0px;
+	margin: 0px; 
+}
+ul#navi
+{
+	position: fixed;
+    top: 0;
+    width: 100%;
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+	overflow: hidden;
+	background-color: #1a1a1a;
+	opacity:1;
+}
+
+ul#navi li
+{
+	float:right;
+}
+
+ul#navi li a
+{
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 20px;
+	font-family:verdana;
+}
+
+ul#navi li a:hover{background-color: #404040;}
+
+li#tab1{background-color:#00cccc;}
+li#tab2{background-color:#ffaa00;}
+li#tab3{background-color:#ff0066;}
+
+div#about
+{
+	background: rgba(0,204,204,0.1);
+	padding:450px;
+}
+
+div#portfolio
+{
+	background: rgba(255,170,0,0.1);
+	padding:450px;
+}
+
+a#ghicon
+{
+	width:50%;
+	height:50%;
+}
+
+div#contact
+{
+	background: rgba(255,0,102,0.1);
+	padding:450px;
+}
+
+h1
+{
+	color:#ffffff;
+	font-size: 80px;
+}
+
+p
+{
+	background: rgba(77, 77, 77, 0.8);
+	color:#ffffff;
+	font-size: 30px;
+	overflow:auto;
+}
+
+form
+{
+	background-color:#737373;
+	color:#ffffff;
+	padding:12px 20px;
+	margin:8px 0;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
