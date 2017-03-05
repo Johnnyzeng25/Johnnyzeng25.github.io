@@ -1,5 +1,6 @@
 body
 {
+	/* a background image for all 3 sections */
 	background-image: url(../images/bwcode.jpeg);
 	height: 100%;
 	padding:0px;
@@ -7,6 +8,7 @@ body
 }
 ul#navi
 {
+	/* menu would stay at top all time even though you keep scrolling down */
 	position: fixed;
     top: 0;
     width: 100%;
@@ -18,11 +20,13 @@ ul#navi
 	opacity:1;
 }
 
+/*making the menu horizontal and tabs lean to the right*/
 ul#navi li
 {
 	float:right;
 }
 
+/*menu tabs styling*/
 ul#navi li a
 {
 	display: block;
@@ -33,12 +37,15 @@ ul#navi li a
 	font-family:verdana;
 }
 
+/*menu tabs change color when mouse hover*/
 ul#navi li a:hover{background-color: #404040;}
 
+/*different color for each tab*/
 li#tab1{background-color:#00cccc;}
 li#tab2{background-color:#ffaa00;}
 li#tab3{background-color:#ff0066;}
 
+/*for the 3sections of the webpage,I've used an opacity effect as a background to allow viewer knowing which tab they have clicked */
 div#about
 {
 	background: rgba(0,204,204,0.1);
@@ -77,6 +84,7 @@ p
 	overflow:auto;
 }
 
+/* styling for the contact form*/
 form
 {
 	background-color:#737373;
